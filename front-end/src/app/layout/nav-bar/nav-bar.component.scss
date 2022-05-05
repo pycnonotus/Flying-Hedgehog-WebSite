@@ -1,0 +1,17 @@
+.center{
+  width:100%;
+  margin:  0 auto;
+  display: flex;
+  .inner-center{
+    width:100%;
+    max-width: var(--page-max-width);
+    margin:  0 auto;
+  }
+}
+
+#company-name{
+ position: absolute;
+ @media screen and (max-width:1600px) {
+  display: none;
+ }
+}
