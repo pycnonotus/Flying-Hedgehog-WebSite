@@ -3,4 +3,7 @@
   margin:2em auto;
   max-width: var(--page-max-width);
   width: 100%;
+  ::ng-deep mat-card.this-card{
+  margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
+  }
 }

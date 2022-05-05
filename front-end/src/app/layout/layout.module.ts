@@ -6,6 +6,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import { MainComponent } from './main/main.component';
 import {MatCardModule} from '@angular/material/card';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -18,7 +19,9 @@ import {MatCardModule} from '@angular/material/card';
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
-    MatCardModule
+    MatCardModule,
+    RouterModule,
+
   ],
   exports: [
     NavBarComponent,
